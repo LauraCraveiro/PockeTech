@@ -1,0 +1,76 @@
+
+        body {
+            height: 100%;
+            background-image: url('../ICONS/Fundo_Index.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #DDF2DA;
+            color: #70CDC3;
+            padding: 40px 0;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding-left: 0;
+        }
+
+            .footer-links li {
+                margin-bottom: 10px;
+            }
+
+            .footer-links a {
+                color: #70CDC3;
+                text-decoration: none;
+            }
+
+                .footer-links a:hover {
+                    text-decoration: underline;
+                }
+
+        .footer-social-icons {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: -37px;
+        }
+
+            .footer-social-icons li {
+                margin-right: 10px;
+            }
+
+            .footer-social-icons a {
+                color: #70CDC3;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+        .container {
+            margin: auto;
+            color: #DDF2DA;
+
+            text-align: justify;
+            width: 100%;
+            margin-top: 357px;
+        }
+        .container-text h1{
+
+            text-align: center;
+
+        }
+
+        
